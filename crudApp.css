@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e5e5;
+    font-family: sans-serif;
+}
+.app{
+    background-color: #fff;
+    width: 350px;
+    height: 540px;
+    border: 5px solid #abcea1;
+    border-radius: 8px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+.app::-webkit-scrollbar{
+    width: 0 !important;
+}
+.app h2{
+    text-align: center;
+    margin-bottom: 17px;
+}
+.addTask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(171,206,161,0.36);
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.fa-plus{
+    background-color: #abcea1;
+    padding: 3px;
+    border-radius: 3px;
+}
+.posts{
+    display: grid;
+    gap: 15px;
+}
+.posts > div{
+    background-color: #bcf3ad;
+    border: 3px solid #abcea1;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+textarea{
+    resize: none;
+}
+i{
+    cursor: pointer;
+}
